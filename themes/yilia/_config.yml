@@ -6,10 +6,10 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: https://github.com/kuangyeheng
+  weibo: javascript:;
+  rss: http://localhost:4000/atom.xml
+  zhihu: javascript:;
   #douban: "#"
   #mail: "#"
   #facebook: "#"
@@ -32,7 +32,7 @@ open_in_new: false
 
 # Miscellaneous
 google_analytics: ''
-favicon: /favicon.png
+favicon: /favicon.ico
 
 #你的头像url
 avatar:
@@ -50,15 +50,19 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+  奥巴马的博客: javascript:;
+  卡卡的美丽传说: javascript:;
+  本泽马的博客: javascript:;
+  吉格斯的博客: javascript:;
+  习大大大不同: javascript:;
+  托蒂的博客: javascript:;
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
 aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+
+#启动头像动画
+animate: true
+avatar: /img/logo.png
