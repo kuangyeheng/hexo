@@ -2,14 +2,15 @@
 menu:
   主页: /
   所有文章: /archives
+  javascript: /categories/javascript
   # 随笔: /tags/随笔
 
 # SubNav
 subnav:
   github: https://github.com/kuangyeheng
-  weibo: javascript:;
-  rss: http://localhost:4000/atom.xml
-  zhihu: javascript:;
+  # weibo: javascript:;
+  rss: /atom.xml
+  # zhihu: javascript:;
   #douban: "#"
   #mail: "#"
   #facebook: "#"
@@ -35,7 +36,7 @@ google_analytics: ''
 favicon: /favicon.ico
 
 #你的头像url
-avatar:
+avatar: /img/logo.png
 #是否开启分享
 share_jia: true
 share_addthis: false
@@ -50,19 +51,12 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: javascript:;
-  卡卡的美丽传说: javascript:;
-  本泽马的博客: javascript:;
-  吉格斯的博客: javascript:;
-  习大大大不同: javascript:;
-  托蒂的博客: javascript:;
+  等待互粉中……: javascript:;
+  
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+aboutme: 一直很水，但是一直在装，我容易吗我/(ㄒoㄒ)/~~
 
-#启动头像动画
-animate: true
-avatar: /img/logo.png
